@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #3e8e41;
+}
+
+.repository-container {
+    margin-bottom: 20px;
+}
+
+.repository-container h2 {
+    margin-top: 0;
+}
+
+.repository-container p {
+    margin-bottom: 10px;
+}
+
+.repository-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.repository-container a:hover {
+    text-decoration: underline;
+}
+
+.user-container {
+    margin-bottom: 20px;
+}
+
+.user-container h2 {
+    margin-top: 0;
+}
+
+.user-container p {
+    margin-bottom: 10px;
+}
+
+.user-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.user-container a:hover {
+    text-decoration: underline;
+}
